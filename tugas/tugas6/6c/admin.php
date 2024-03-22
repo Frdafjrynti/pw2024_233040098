@@ -14,10 +14,11 @@
             display: flex;
             justify-content: center;
             align-items: center;
-            height: 50vh;
-            width: 50%;
+            height: 80vh;
+            width: 80%;
             color: white;
             background-color: white; 
+            margin:auto ;
         }
         .content {
             display: flex;
@@ -27,10 +28,10 @@
             gap: 10px;
             text-align: center;
             background-color: lightblue;
-            width: 80%;
-            height: 80%;
+            width: 50vh;
+            height: 50vh;
             font-size: 1rem;
-            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            font-family: 'Segoe UI', Tahoma, 'Geneva', Verdana, sans-serif;
             border-radius: 20px;
         }
         button {

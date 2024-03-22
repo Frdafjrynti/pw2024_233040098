@@ -27,10 +27,11 @@ if (isset($_POST["submit"])) {
             display: flex;
             justify-content: center;
             align-items: center;
-            height: 50vh;
-            width: 50%;
+            height: 80vh;
+            width: 80vh;
             color: white;
             background-color: white;
+            margin:auto ;
         }
         
         .content {
@@ -43,7 +44,7 @@ if (isset($_POST["submit"])) {
             width: 80%;
             height: 80%;
             font-size: 1rem;
-            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            font-family: 'Segoe UI', Tahoma, 'Geneva', Verdana, sans-serif;
             border-radius: 20px;
         }
         h1 {
@@ -67,15 +68,25 @@ if (isset($_POST["submit"])) {
         p {
             color: red;
         }
+        .profile {
+            border-radius: 50%;
+            width: 150px;
+            height: 150px;
+            background-image: url(img/kupu.jpg);
+            background-size: cover;
+            background-position: center;
+            border: 3px solid black;
+        }
     </style>
 </head>
 <body>
     
     <div class="container">
         <div class="content">
+        <div class="profile"></div>
                 <h1><i>Login</i></h1>
             <?php if (isset($error)) : ?>
-                <p>username atau password anda salah <?= $_POST["username"]; ?></p>
+                <p>username atau password anda salah</p>
             <?php endif; ?>
             <form action="" method="post">
                 <label for="username">Username :</label>
