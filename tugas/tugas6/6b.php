@@ -11,7 +11,6 @@
             border: 5px solid black;
             color: white;
             display: flex;
-            border-radius: 10px;
             margin: 2px;
         }
         .kotak h2 {
